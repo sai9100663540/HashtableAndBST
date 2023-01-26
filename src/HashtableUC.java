@@ -58,7 +58,6 @@ public class HashtableUC {
         System.out.println("Before removing avoidable: "+map);
 
         for (int j = 0; j < arr.length; j++) {
-
             if (map.containsKey("avoidable")) {
                 map.remove("avoidable");
             }
